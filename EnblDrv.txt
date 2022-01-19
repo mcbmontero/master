@@ -1,3 +1,15 @@
+sadfhsaldfhdsfsadf
+dsaf
+saf
+dsf
+dsafds
+fds
+fdsafdsafagdsgfds
+gfds
+gfdsgfdsgdfs
+g
+fdsgfdgfdgfdg
+
 start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\StorageDevicePolicies" /f /v "WriteProtect" /t REG_DWORD /d 0
 start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control" /f /v "WriteProtect" /t REG_DWORD /d 0
 
