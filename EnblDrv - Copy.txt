@@ -1,0 +1,35 @@
+sadfhsaldfhdsfsadfsdfsdfs
+dsafdfdsfs
+saffdsfdsfdsfsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+saffdsfdsfdsfsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+saffdsfdsfdsfsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+saffdsfdsfdsfsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+saffdsfdsfdsfsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+dsfdfsdfsdfds
+dsafds
+fds
+fdsafdsafagdsgfds
+gfds
+gfdsgfdsgdfs
+g
+fdsgfdgfdgfdg
+sadfhsaldfhdsfsadfsdfsdfs
+dsafdfdsfs
+saffdsfdsfdsfsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+dsfdfsdfsdfds
+dsafds
+fds
+fdsafdsafagdsgfds
+gfds
+gfdsgfdsgdfs
+g
+fdsgfdgfdgfdg
+
+start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\StorageDevicePolicies" /f /v "WriteProtect" /t REG_DWORD /d 0
+start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control" /f /v "WriteProtect" /t REG_DWORD /d 0
+
+start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices\{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}" /f /v "Deny" /t REG_DWORD /D 0
+start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices\{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}" /f /v "Deny_Write" /t REG_DWORD /D 0
+
+start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\RemovableStorage\DelegateFolders\{35786D3C-B075-49b9-88DD-029876E11C01}" /f /v "Deny" /t REG_DWORD /D 0
+start "" cmd /c reg ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\RemovableStorage\DelegateFolders\{35786D3C-B075-49b9-88DD-029876E11C01}" /f /v "Deny_Write" /t REG_DWORD /D 0
